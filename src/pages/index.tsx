@@ -76,14 +76,16 @@ const IndexPage = () => {
         <>
           {status === "post" && (
             <>
-              <h2 style={{ color: colors.peach }}>YOUR CATAN NAME IS...</h2>
+              <h2 style={{ color: colors.peach }}>
+                YOUR CATAN GAME IS CALLED...
+              </h2>
               <h1 className="lalr" style={{ color: colors.purple }}>
                 L.A.L.R. Pt. {lalr}
               </h1>
             </>
           )}
           <MyButton onClick={() => setStatus("loading")}>
-            Generate Catan Name
+            Generate Catan Game Title
           </MyButton>
         </>
       )}
