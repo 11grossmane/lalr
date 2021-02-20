@@ -78,7 +78,7 @@ const IndexPage = () => {
             <>
               <h2 style={{ color: colors.peach }}>YOUR CATAN NAME IS...</h2>
               <h1 className="lalr" style={{ color: colors.purple }}>
-                LALR PT {lalr}
+                L.A.L.R. Pt. {lalr}
               </h1>
             </>
           )}
