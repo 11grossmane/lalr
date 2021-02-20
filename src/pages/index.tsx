@@ -80,7 +80,7 @@ const IndexPage = () => {
                 YOUR CATAN GAME IS CALLED...
               </h2>
               <h1 className="lalr" style={{ color: colors.purple }}>
-                L.A.L.R. Pt. {lalr}
+                L.A.L.R. PT {lalr}
               </h1>
             </>
           )}
