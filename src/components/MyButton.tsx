@@ -1,9 +1,9 @@
 import React from "react"
-import "./layout.css"
 import { Fab, Action } from "react-tiny-fab"
 import "react-tiny-fab/dist/styles.css"
 import { colors } from "../colors"
 import { ButtonHTMLAttributes } from "react"
+import "../styles.css"
 
 export const MyButton: React.FC<React.HTMLProps<HTMLButtonElement>> = ({
   children,

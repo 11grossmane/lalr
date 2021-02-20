@@ -71,9 +71,8 @@ const IndexPage = () => {
   }, [status])
   return (
     <div
+      className="app-container"
       style={{
-        width: "100vw",
-        height: "100vh",
         flexDirection: "column",
         display: "flex",
         alignItems: "center",
