@@ -49,17 +49,7 @@ const IndexPage = () => {
     if (status === "loading") {
       let id = setInterval(() => {
         setSpinner(
-          randomItem([
-            "Puff",
-            "Watch",
-            "Bars",
-            "Grid",
-            "BallTriangle",
-            "Rings",
-            "MutatingDots",
-            "Plane",
-            "CradleLoader",
-          ])
+          randomItem(["Puff", "Watch", "Bars", "Grid", "BallTriangle", "Rings"])
         )
         setMes(getMessage() + "...")
       }, 4000)
@@ -75,6 +65,7 @@ const IndexPage = () => {
     <div
       className="app-container"
       style={{
+        height: "100%",
         flexDirection: "column",
         display: "flex",
         alignItems: "center",
