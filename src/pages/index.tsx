@@ -56,7 +56,9 @@ const IndexPage = () => {
             "Grid",
             "BallTriangle",
             "Rings",
-            "RevolvingDot",
+            "MutatingDots",
+            "Plane",
+            "CradleLoader",
           ])
         )
         setMes(getMessage() + "...")
