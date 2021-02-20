@@ -16,13 +16,14 @@ html {
 
 .my-button {
   border-radius: 50vw;
-  width: 30vw;
-  height: 30vw;
+  width: 300px;
+  height: 300px;
+  max-width: 80vw;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
   padding: 5%;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
   font-weight: 900;
-  font-size: 3vw;
+  font-size: 30px;
   white-space: normal;
   line-height: 1.5em;
   -webkit-transition-duration: 0.4s; /* Safari */
@@ -33,7 +34,7 @@ html {
   cursor: pointer;
 }
 
-.my-button:active:after {
+/* .my-button:active:after {
   padding: 0;
   margin: 0;
   opacity: 1;
@@ -46,13 +47,13 @@ html {
   background: white;
   display: block;
   position: absolute;
-  padding-top: 300%;
-  padding-left: 350%;
-  margin-left: -20px !important;
-  margin-top: -120%;
+  padding-top: 450%;
+  padding-left: 450%;
+  margin-left: -100px !important;
+  margin-top: -200%;
   opacity: 0;
   transition: all 0.8s;
-}
+} */
 
 .my-button:hover {
   box-shadow: 5px 5px black;
@@ -94,7 +95,12 @@ body {
   }
 }
 
+h2 {
+  text-align: center;
+}
+
 .lalr {
   animation: appear 8000ms;
   font-size: 50px;
+  text-align: center;
 }

@@ -76,7 +76,7 @@ const IndexPage = () => {
         <>
           {status === "post" && (
             <>
-              <h1 style={{ color: colors.peach }}>YOUR CATAN NAME IS...</h1>
+              <h2 style={{ color: colors.peach }}>YOUR CATAN NAME IS...</h2>
               <h1 className="lalr" style={{ color: colors.purple }}>
                 LALR PT {lalr}
               </h1>
@@ -96,7 +96,7 @@ const IndexPage = () => {
             justifyContent: "center",
           }}
         >
-          <h1 style={{ color: color }}>{mes}</h1>
+          <h2 style={{ color: color }}>{mes}</h2>
           <Loader type={spinner} color={color} height={200} width={200} />
         </div>
       )}
